@@ -1,5 +1,10 @@
 <script>
-    import "../app.css"
+	import '../app.css';
+	import Button from '../components/Button/button.svelte';
+	let name = 'Kime';
 </script>
 
-<slot/>
+<div>{name}</div>
+<Button text="button" />
+
+<slot />
